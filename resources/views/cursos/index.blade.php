@@ -4,7 +4,7 @@
 
 
 @section('content')
-    <h1>Bienvenido a la página principal de cursos</h1>
+    <h1>Bienvenido a la página principal de cursos con otro comentario</h1>
     <a href="{{route('cursos.create')}}">Crear curso</a>
     <ul>
         @foreach ($cursos as $curso)
